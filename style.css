@@ -122,10 +122,10 @@ body {
     color: #C5A880;
 }
 
-#hero button{
-    background-image: url("Shop Images/Cupcake.jpg");
-    background-color: transparent;
-    color: #532E1C;
+#hero button {
+    background-image: url("Shop Images/Button.png");
+    background-color: transparent; background-size: 200px 200px;
+    color: #E6E6E6; background-position: 8px center;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
