@@ -133,3 +133,28 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#feature .fe-box img {
+    width: 80px;
+}
+
+#feature .fe-box h6 {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #0F0F0F;
+}
