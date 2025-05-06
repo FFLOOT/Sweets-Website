@@ -42,6 +42,19 @@ P {
     margin: 40px 0;
 }
 
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #E6E6E6;
+    background-color: #834f35;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -102,7 +115,7 @@ body {
 
 
 #hero {
-    background-image: url("Shop Images/Cupcake.jpg");
+    background-image: url("Shop-Images/Cupcake.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -123,7 +136,7 @@ body {
 }
 
 #hero button {
-    background-image: url("Shop Images/Button.png");
+    background-image: url("Shop-Images/Button.png");
     background-color: transparent; background-size: 200px 200px;
     color: #E6E6E6; background-position: 8px center;
     border: 0;
@@ -167,6 +180,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 #product1 .pro {
@@ -239,4 +253,101 @@ body {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+
+.sweet-moment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #fff;
+    gap: 40px;
+  }
+  
+  .text-content {
+    flex: 1;
+    color: #532E1C;
+    font-family: 'Georgia', serif;
+  }
+  
+  .text-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .action-btn {
+    display: inline-block;
+    background: #834f35;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .image-content img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+
+  .action-btn {
+    background: #834f35;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background: #C5A880;
+    color: #532E1C;
+    transform: scale(1.05);
+  }
+
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(Shop-Images/Banner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: #532E1C;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: #532E1C;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: #8b1717;
+}
+
+#banner button:hover{
+    background: #E6E6E6;
+    color: #532E1C;
+    transform: scale(1.05);
 }
