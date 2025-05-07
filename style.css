@@ -477,10 +477,24 @@ footer .icon i {
     left: 1500px;
     top: 40px;
 }
-  
 
+#pagination {
+    text-align: center;
+}  
 
+#pagination a {
+    text-decoration: none;
+    background-color: #C5A880;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
 
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 
