@@ -233,6 +233,10 @@ body {
     color: rgb(243, 181, 25);
 }
 
+.section-p1 h2 {
+    color: #532E1C;
+}
+
 .cart-icon i {
     color: #C5A880;
     font-size: 20px;
@@ -492,9 +496,124 @@ footer .icon i {
 }
 
 #pagination a i{
-    font-size: 16px;
-    font-weight: 600;
+    display: flex;
+    margin-top: 20px;
 }
+
+#prodetails {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+
+  #prodetails .cake span {
+    margin-top: 20px;
+  }
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.single-pro-image {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .single-pro-image  img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .section-p1 h3 {
+    color: #532E1C;
+  }
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.small-img-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+.small-img-col img:hover {
+    transform: scale(1.05);
+}
+
+.small-img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .small-img:hover {
+    transform: scale(1.05);
+  }
+
+  #prodetails > div:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 550px;
+  }
+  
+  #prodetails h2 {
+    font-size: 28px;
+    color: #532E1C;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+  }
+  
+  #prodetails p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #prodetails button {
+    background-color: #834f35;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+  }
+  
+  #prodetails button:hover {
+    background-color: #998c2f;
+  }
+
+  .dessert-details {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #555;
+    max-width: 500px;
+  }
+
 
 
 
@@ -622,4 +741,11 @@ footer .icon i {
     #banner {
         height: 30vh;
     }
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
 }
