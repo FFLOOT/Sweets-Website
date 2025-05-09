@@ -616,6 +616,107 @@ footer .icon i {
   }
 
 
+  #page-header {
+    background-image: url("Shop-Images/banana-dessert.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+  }
+  
+  #page-header .blog-header {
+    background-image: url("");
+  }
+  
+  #blog .blog-box {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #blog .blog-box h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+  
+  #blog .blog-box p {
+    color: #532E1C;
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  #blog .images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+  
+  #blog .images img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+
+
+  .experts-section {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #experts-section .experts-title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+  
+  .experts-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .expert {
+    flex-shrink: 0;
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .expert img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .expert h4 {
+    margin: 0.5rem 0 0.25rem;
+    font-size: 1.1rem;
+    color: #532E1C;
+  }
+  
+  .expert p {
+    color: #532E1C;
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  
+
+
+
 
 
 
