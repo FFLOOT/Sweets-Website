@@ -491,14 +491,9 @@ footer .icon i {
     text-decoration: none;
     background-color: #C5A880;
     padding: 15px 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     color: #fff;
     font-weight: 600;
-}
-
-#pagination a i{
-    display: flex;
-    margin-top: 20px;
 }
 
 #prodetails {
